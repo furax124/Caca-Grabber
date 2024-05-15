@@ -5,3 +5,7 @@ https://www.virustotal.com/gui/file/5f6936005a62cb540e2aa71e35bf852b218bab1b7620
 
 
 ![image](https://github.com/furax124/Skid-Discord/assets/84036582/72e3bda9-f609-456d-b629-f25739b91462)
+
+
+This scan was taken on 14 may 2024
+14/05/2024
